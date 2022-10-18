@@ -1,4 +1,4 @@
-import { CardPost, Header } from './components';
+import { CardPost, Footer, Header } from './components';
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
           <CardPost key={post} />
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 }
