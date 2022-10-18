@@ -1,7 +1,8 @@
 // with tailwindcss
 export const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-indigo-100 text-center py-4 mt-8 flex justify-center gap-4">
+    <footer className="bg-gray-800 text-indigo-100 text-center p-4 mt-8 flex justify-between gap-4">
+      <div></div>
       <p>© 2021 - Bonny</p>
 
       <p>
